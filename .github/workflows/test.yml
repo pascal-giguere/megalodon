@@ -28,7 +28,7 @@ jobs:
           yarn install
       - name: Build
         run: |
-          yarn workspace megalodon run build
+          yarn workspace @pascal-giguere/megalodon run build
       - name: Testing
         run: |
-          yarn workspace megalodon run test
+          yarn workspace @pascal-giguere/megalodon run test

@@ -28,7 +28,7 @@ jobs:
           yarn install
       - name: Build
         run: |
-          yarn workspace megalodon run build
+          yarn workspace @pascal-giguere/megalodon run build
       - name: Node CJS example
         env:
           MASTODON_URL: https://fedibird.com
@@ -60,7 +60,7 @@ jobs:
           yarn install
       - name: Build
         run: |
-          yarn workspace megalodon run build
+          yarn workspace @pascal-giguere/megalodon run build
       - name: Node ESM example
         run: |
           yarn workspace node-esm run build
@@ -83,7 +83,7 @@ jobs:
           yarn install
       - name: Build
         run: |
-          yarn workspace megalodon run build
+          yarn workspace @pascal-giguere/megalodon run build
       - name: Webpack example
         run: |
           yarn workspace webpack run build
@@ -106,7 +106,7 @@ jobs:
           yarn install
       - name: Build
         run: |
-          yarn workspace megalodon run build
+          yarn workspace @pascal-giguere/megalodon run build
       - name: Vite example
         run: |
           yarn workspace vite build

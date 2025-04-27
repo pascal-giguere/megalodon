@@ -7,7 +7,7 @@ $ export MASTODON_ACCESS_TOKEN=foobar
 And execute
 
 ```
-$ yarn workspace megalodon build
+$ yarn workspace @pascal-giguere/megalodon build
 $ yarn workspace browser build
 $ yarn workspace browser start
 ```

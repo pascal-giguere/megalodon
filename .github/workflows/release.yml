@@ -24,7 +24,7 @@ jobs:
         yarn install
     - name: Build
       run: |
-        yarn workspace megalodon run build
+        yarn workspace @pascal-giguere/megalodon run build
     # refs: https://github.com/actions/setup-node/issues/942#issuecomment-1920476219
     - name: Authentication
       run: |
@@ -33,5 +33,5 @@ jobs:
         NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
     - name: Publish
       run: |
-        yarn workspace megalodon npm publish
+        yarn workspace @pascal-giguere/megalodon npm publish
 
