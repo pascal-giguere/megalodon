@@ -1,4 +1,4 @@
-import generator, { Entity } from 'megalodon'
+import generator, { Entity } from '@pascal-giguere/megalodon'
 
 const BASE_URL: string = process.env.PIXELFED_URL!
 

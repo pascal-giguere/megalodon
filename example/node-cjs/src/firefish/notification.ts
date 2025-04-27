@@ -1,4 +1,4 @@
-import generator, { NotificationType } from 'megalodon'
+import generator, { NotificationType } from '@pascal-giguere/megalodon'
 
 const BASE_URL: string = process.env.FIREFISH_URL!
 const access_token: string = process.env.FIREFISH_ACCESS_TOKEN!

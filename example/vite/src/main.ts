@@ -1,4 +1,4 @@
-import generator, { Entity } from 'megalodon'
+import generator, { Entity } from '@pascal-giguere/megalodon'
 
 const BASE_URL: string = import.meta.env.VITE_MASTODON_URL
 const ACCESS_TOKEN: string = import.meta.env.VITE_MASTODON_ACCESS_TOKEN

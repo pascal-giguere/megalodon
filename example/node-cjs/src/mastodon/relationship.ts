@@ -1,4 +1,4 @@
-import generator from 'megalodon'
+import generator from '@pascal-giguere/megalodon'
 
 declare var process: {
   env: {

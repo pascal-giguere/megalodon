@@ -1,4 +1,4 @@
-import { detector } from 'megalodon'
+import { detector } from '@pascal-giguere/megalodon'
 
 const URL = process.env.URL as string
 

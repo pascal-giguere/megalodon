@@ -1,7 +1,6 @@
 {
   "name": "webpack",
   "version": "4.0.0",
-  "private": true,
   "scripts": {
     "build": "webpack",
     "start": "http-server -p 8000 -s index.html",
@@ -10,7 +9,7 @@
   "author": "Akira Fukushima <h3.poteto@gmail.com> (https://github.com/h3poteto)",
   "license": "MIT",
   "dependencies": {
-    "megalodon": "*"
+    "@pascal-giguere/megalodon": "*"
   },
   "devDependencies": {
     "eslint": "^9.23.0",

@@ -1,4 +1,4 @@
-import generator, { Response, Entity, isCancel } from 'megalodon'
+import generator, { Response, Entity, isCancel } from '@pascal-giguere/megalodon'
 
 const BASE_URL: string = 'https://pleroma.io'
 

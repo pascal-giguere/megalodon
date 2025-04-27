@@ -1,4 +1,4 @@
-import generator, { isCancel } from 'megalodon'
+import generator, { isCancel } from '@pascal-giguere/megalodon'
 
 const url: string = process.env.FIREFISH_URL!
 const access_token: string = process.env.FIREFISH_ACCESS_TOKEN!

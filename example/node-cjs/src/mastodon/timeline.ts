@@ -1,4 +1,4 @@
-import generator, { MegalodonInterface, Entity, Response } from 'megalodon'
+import generator, { MegalodonInterface, Entity, Response } from '@pascal-giguere/megalodon'
 
 declare var process: {
   env: {

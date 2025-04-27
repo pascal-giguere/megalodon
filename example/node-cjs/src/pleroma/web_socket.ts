@@ -1,4 +1,4 @@
-import generator, { Entity } from 'megalodon'
+import generator, { Entity } from '@pascal-giguere/megalodon'
 import log4js from 'log4js'
 
 declare var process: {

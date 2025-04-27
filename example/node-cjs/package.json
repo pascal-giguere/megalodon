@@ -10,7 +10,7 @@
   "author": "h3poteto",
   "license": "MIT",
   "dependencies": {
-    "megalodon": "*",
+    "@pascal-giguere/megalodon": "*",
     "typescript": "5.4.5"
   },
   "devDependencies": {

@@ -1,4 +1,4 @@
-import generator, { Entity, Response } from 'megalodon'
+import generator, { Entity, Response } from '@pascal-giguere/megalodon'
 
 const BASE_URL = process.env.FIREFISH_URL!
 const access_token = process.env.FIREFISH_ACCESS_TOKEN!

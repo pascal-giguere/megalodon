@@ -1,5 +1,10 @@
 # Megalodon
 
+> [!NOTE]  
+> This is a fork of [@h3poteto/megalodon](https://github.com/h3poteto/megalodon) with ESM support added.
+> It's temporarily published to npm as [@pascal-giguere/megalodon](https://www.npmjs.com/package/@pascal-giguere/megalodon) until the original repository is updated.
+
+
 [![Test](https://github.com/h3poteto/megalodon/workflows/Test/badge.svg)](https://github.com/h3poteto/megalodon/actions?query=branch%3Amaster+workflow%3ATest)
 [![NPM Version](https://img.shields.io/npm/v/megalodon.svg)](https://www.npmjs.com/package/megalodon)
 [![GitHub release](https://img.shields.io/github/release/h3poteto/megalodon.svg)](https://github.com/h3poteto/megalodon/releases)
@@ -57,7 +62,7 @@ If you don't have access token, or you want to register applications and get acc
 ### Home timeline
 
 ```ts
-import generator, { Entity, Response } from 'megalodon'
+import generator, { Entity, Response } from '@pascal-giguere/megalodon'
 
 const BASE_URL: string = 'https://mastodon.social'
 const access_token: string = '...'
@@ -72,7 +77,7 @@ client.getHomeTimeline()
 ### Make a post
 
 ```ts
-import generator, { Entity, Response } from 'megalodon'
+import generator, { Entity, Response } from '@pascal-giguere/megalodon'
 
 const BASE_URL: string = 'https://mastodon.social'
 const access_token: string = '...'
@@ -90,7 +95,7 @@ client.postStatus(post)
 Please provide a file to the argument.
 
 ```ts
-import generator, { Entity, Response } from 'megalodon'
+import generator, { Entity, Response } from '@pascal-giguere/megalodon'
 import fs from 'fs'
 
 const BASE_URL: string = 'https://mastodon.social'
@@ -107,7 +112,7 @@ client.uploadMedia(image)
 ### WebSocket streaming
 
 ```ts
-import generator, { Entity } from 'megalodon'
+import generator, { Entity } from '@pascal-giguere/megalodon'
 
 const BASE_URL: string = 'https://pleroma.io'
 const access_token: string = '...'
@@ -153,7 +158,7 @@ client.userStreaming().then(stream => {
 You can register applications and/or get access tokens to use this method.
 
 ```ts
-import generator, { OAuth } from 'megalodon'
+import generator, { OAuth } from '@pascal-giguere/megalodon'
 
 const BASE_URL: string = 'https://mastodon.social'
 
@@ -193,7 +198,7 @@ You have to provide the server's software name (e.g. `mastodon`, `pleroma`, `fir
 But when you only know the URL and not the software the server runs on, the `detector` function can detect the server's software.
 
 ```ts
-import { detector } from 'megalodon'
+import { detector } from '@pascal-giguere/megalodon'
 
 const FIRST_URL = 'https://mastodon.social'
 const SECOND_URL = 'https://firefish.social'

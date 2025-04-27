@@ -10,7 +10,7 @@
     "lint": "eslint --ext .js,.ts src"
   },
   "dependencies": {
-    "megalodon": "*"
+    "@pascal-giguere/megalodon": "*"
   },
   "devDependencies": {
     "eslint": "^9.23.0",

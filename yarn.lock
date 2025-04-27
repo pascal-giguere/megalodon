@@ -1079,6 +1079,42 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@pascal-giguere/megalodon@npm:*, @pascal-giguere/megalodon@workspace:megalodon":
+  version: 0.0.0-use.local
+  resolution: "@pascal-giguere/megalodon@workspace:megalodon"
+  dependencies:
+    "@badgateway/oauth2-client": "npm:^2.4.2"
+    "@eslint/eslintrc": "npm:^3.3.1"
+    "@eslint/js": "npm:^9.23.0"
+    "@types/jest": "npm:^29.5.14"
+    "@types/object-assign-deep": "npm:^0.4.3"
+    "@types/uuid": "npm:^10.0.0"
+    "@types/ws": "npm:^8.5.13"
+    "@typescript-eslint/eslint-plugin": "npm:^8.19.1"
+    "@typescript-eslint/parser": "npm:^8.19.1"
+    axios: "npm:1.7.9"
+    dayjs: "npm:^1.11.13"
+    eslint: "npm:^9.23.0"
+    eslint-config-prettier: "npm:^9.1.0"
+    eslint-plugin-prettier: "npm:^5.2.1"
+    events: "npm:^3.3.0"
+    form-data: "npm:^4.0.1"
+    globals: "npm:^16.0.0"
+    isomorphic-ws: "npm:^5.0.0"
+    jest: "npm:^29.7.0"
+    jest-worker: "npm:^29.7.0"
+    lodash: "npm:^4.17.21"
+    object-assign-deep: "npm:^0.4.0"
+    prettier: "npm:^3.4.2"
+    ts-jest: "npm:^29.2.5"
+    ts-jest-resolver: "npm:^2.0.1"
+    typedoc: "npm:^0.26.11"
+    typescript: "npm:5.4.5"
+    uuid: "npm:^11.0.3"
+    ws: "npm:8.18.0"
+  languageName: unknown
+  linkType: soft
+
 "@pkgjs/parseargs@npm:^0.11.0":
   version: 0.11.0
   resolution: "@pkgjs/parseargs@npm:0.11.0"
@@ -4565,42 +4601,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"megalodon@npm:*, megalodon@workspace:megalodon":
-  version: 0.0.0-use.local
-  resolution: "megalodon@workspace:megalodon"
-  dependencies:
-    "@badgateway/oauth2-client": "npm:^2.4.2"
-    "@eslint/eslintrc": "npm:^3.3.1"
-    "@eslint/js": "npm:^9.23.0"
-    "@types/jest": "npm:^29.5.14"
-    "@types/object-assign-deep": "npm:^0.4.3"
-    "@types/uuid": "npm:^10.0.0"
-    "@types/ws": "npm:^8.5.13"
-    "@typescript-eslint/eslint-plugin": "npm:^8.19.1"
-    "@typescript-eslint/parser": "npm:^8.19.1"
-    axios: "npm:1.7.9"
-    dayjs: "npm:^1.11.13"
-    eslint: "npm:^9.23.0"
-    eslint-config-prettier: "npm:^9.1.0"
-    eslint-plugin-prettier: "npm:^5.2.1"
-    events: "npm:^3.3.0"
-    form-data: "npm:^4.0.1"
-    globals: "npm:^16.0.0"
-    isomorphic-ws: "npm:^5.0.0"
-    jest: "npm:^29.7.0"
-    jest-worker: "npm:^29.7.0"
-    lodash: "npm:^4.17.21"
-    object-assign-deep: "npm:^0.4.0"
-    prettier: "npm:^3.4.2"
-    ts-jest: "npm:^29.2.5"
-    ts-jest-resolver: "npm:^2.0.1"
-    typedoc: "npm:^0.26.11"
-    typescript: "npm:5.4.5"
-    uuid: "npm:^11.0.3"
-    ws: "npm:8.18.0"
-  languageName: unknown
-  linkType: soft
-
 "merge-stream@npm:^2.0.0":
   version: 2.0.0
   resolution: "merge-stream@npm:2.0.0"
@@ -4903,10 +4903,10 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "node-cjs@workspace:example/node-cjs"
   dependencies:
+    "@pascal-giguere/megalodon": "npm:*"
     "@types/node": "npm:^22.9.1"
     eslint: "npm:^9.23.0"
     log4js: "npm:^6.9.1"
-    megalodon: "npm:*"
     typescript: "npm:5.4.5"
   languageName: unknown
   linkType: soft
@@ -4915,10 +4915,10 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "node-esm@workspace:example/node-esm"
   dependencies:
+    "@pascal-giguere/megalodon": "npm:*"
     "@types/node": "npm:^22.9.1"
     eslint: "npm:^9.23.0"
     log4js: "npm:^6.9.1"
-    megalodon: "npm:*"
     typescript: "npm:5.4.5"
   languageName: unknown
   linkType: soft
@@ -6345,8 +6345,8 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "vite@workspace:example/vite"
   dependencies:
+    "@pascal-giguere/megalodon": "npm:*"
     eslint: "npm:^9.23.0"
-    megalodon: "npm:*"
     typescript: "npm:^5.4.5"
     vite: "npm:^4.4.5"
   languageName: unknown
@@ -6460,9 +6460,9 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "webpack@workspace:example/webpack"
   dependencies:
+    "@pascal-giguere/megalodon": "npm:*"
     eslint: "npm:^9.23.0"
     http-server: "npm:^14.1.1"
-    megalodon: "npm:*"
     ts-loader: "npm:^9.5.1"
     typescript: "npm:5.4.5"
     webpack: "npm:^5.88.2"

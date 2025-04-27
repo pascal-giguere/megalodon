@@ -1,4 +1,4 @@
-import generator, { NotificationType } from 'megalodon'
+import generator, { NotificationType } from '@pascal-giguere/megalodon'
 
 declare var process: {
   env: {

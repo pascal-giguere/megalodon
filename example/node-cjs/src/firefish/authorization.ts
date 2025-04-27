@@ -1,5 +1,5 @@
 import * as readline from 'readline'
-import { OAuth, Firefish } from 'megalodon'
+import { OAuth, Firefish } from '@pascal-giguere/megalodon'
 
 const rl: readline.ReadLine = readline.createInterface({
   input: process.stdin,

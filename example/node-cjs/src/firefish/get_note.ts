@@ -1,5 +1,5 @@
 import * as readline from 'readline'
-import generator, { MegalodonInterface } from 'megalodon'
+import generator, { MegalodonInterface } from '@pascal-giguere/megalodon'
 
 const rl: readline.ReadLine = readline.createInterface({
   input: process.stdin,

@@ -1,4 +1,4 @@
-import generator, { Entity, Response } from 'megalodon'
+import generator, { Entity, Response } from '@pascal-giguere/megalodon'
 import * as fs from 'fs'
 
 const BASE_URL: string = 'https://fedibird.com'

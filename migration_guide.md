@@ -24,7 +24,7 @@ In [#180](https://github.com/h3poteto/megalodon/pull/180), these methods are mov
 So please call these methods from Mastodon like:
 
 ```typescript
-import { Mastodon } from 'megalodon'
+import { Mastodon } from '@pascal-giguere/megalodon'
 
 const client = new Mastodon(...)
 client.registerApp('TestApp')
@@ -34,7 +34,7 @@ client.registerApp('TestApp')
 In v2.x, probably you use `megalodon` like:
 
 ```typescript
-import Mastodon from 'megalodon'
+import Mastodon from '@pascal-giguere/megalodon'
 
 const client = new Mastodon(...)
 
@@ -48,7 +48,7 @@ I prepared methods instead of these.
 There are all methods to call Mastodon APIs, so please use it.
 
 ```typescript
-import { Mastodon } from 'megalodon'
+import { Mastodon } from '@pascal-giguere/megalodon'
 
 const client = new Mastodon(...)
 
@@ -62,7 +62,7 @@ Please refer `megalodon` [document](https://h3poteto.github.io/megalodon/) for m
 This function generate Client API instance for specified SNS.
 
 ```typescript
-import generator from 'megalodon'
+import generator from '@pascal-giguere/megalodon'
 
 const client = generator(sns_name, url, access_token)
 ```
@@ -75,7 +75,7 @@ This function detect which SNS's URL is provided.
 It returns SNS name, `mastodon`, `pleroma` or `misskey`.
 
 ```typescript
-import { detector } from 'megalodon'
+import { detector } from '@pascal-giguere/megalodon'
 
 const sns = await detector('https://mastodon.social')
 ```
@@ -84,7 +84,7 @@ These functions are necessary to treat multiple SNS.
 The smart way to call multiple SNS endpoint in same interface is:
 
 ```typescript
-import generator, { detector } from 'megalodon'
+import generator, { detector } from '@pascal-giguere/megalodon'
 
 const sns = await detector(url)
 const client = generator(sns, url, access_token)
