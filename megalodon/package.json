@@ -1,6 +1,6 @@
 {
   "name": "@pascal-giguere/megalodon",
-  "version": "10.2.0",
+  "version": "10.2.1",
   "description": "Fediverse API client for node.js and browser",
   "type": "module",
   "main": "./lib/index.cjs",
